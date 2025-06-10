@@ -22,7 +22,6 @@ const clientSchema = new mongoose.Schema(
       url: String,
       publicId: String,
       optimized: Boolean,
-      default: null,
     },
     email: {
       type: String,
